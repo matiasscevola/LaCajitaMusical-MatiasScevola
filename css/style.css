@@ -1,0 +1,978 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+	font-family: 'Patrick Hand', cursive;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+html{ 
+	font-size:0.625em;
+
+	
+}
+
+body {
+	background-image: url(../img/bateria.jpg);
+	background-size:100%;
+	height: auto;
+	width: auto;
+	background-color: black;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+    align-items: stretch;
+    justify-content: center;
+
+
+}
+
+
+
+h1{
+	
+	font-size:3.75em;
+	color: #A6BCD2;
+	margin-top: auto;
+	text-align: center;
+
+   }
+
+nav {
+    
+	padding: 1.25em 2.5em;
+	font-size:1.125em;
+	color: white;
+
+
+}
+
+ nav ol {
+	text-align: left;
+	text-decoration: none;
+	list-style: none;
+	
+ }
+
+ nav ol li {
+	font-size: 3.5em;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+nav ol li a {
+	text-decoration: none;
+	padding-left: 5px;
+	color: #CDC4CD;
+	background-color: #000000;
+	border-radius: 0.93em;
+	justify-content: center;
+	margin-right: auto;
+
+	
+
+}
+
+.stiky {
+	position: sticky;
+	top: 0.625;
+}
+ 
+.img{
+	display: block;
+}
+
+
+p{
+font-size: 1.125em;
+color: white;
+background-color: black;
+text-align: center;
+display: block;
+margin-left: 0.938em;
+margin-bottom: 0.938em;
+
+
+
+}
+
+.textRed {
+		color: red;
+}
+
+
+
+}
+/*------------------------index--------------------*/
+
+.logo{
+	display: inline-block;
+	align-items: center;
+	
+	text-align: center;   
+	margin-left: 0.4em;
+	margin-top: 0.15em;
+
+}
+
+.ul{
+	margin-left: 0.35em;
+}
+/*---------------grid index---------------*/
+
+.gridIndex{
+	display: grid;
+	grid-template-areas:
+		"header" 
+		"nav";
+	grid-template-columns: auto;
+	height: 98vh;
+    align-content: center;
+    justify-items: center;
+
+
+}
+
+.box-1{
+	display: inline-grid;
+	grid-area: header;
+	flex-direction: row;
+	justify-content: center;
+	 justify-items: center;
+	align-content: space-between;
+
+}
+
+
+
+.box-2{
+	grid-area: nav;
+	flex-direction: row;
+	align-items: flex-end;
+	
+
+}
+
+
+/*--------------------------footer-----------------*/
+
+.footer{
+	display: block;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+   margin-top: auto;
+}
+
+
+.tituloPie{
+	font-size: 3.75em;
+	color: grey;
+	background-color: black;
+	border-radius: 1.87emPX;
+	justify-content: center;
+}
+
+
+
+
+.div1 a img{
+width: 4em;
+height: 4em;
+
+
+}
+
+.div2 a img{
+width: 4em;
+height: 4em;
+}
+
+.div3 a img{
+width: 4em;
+height:4em;
+}
+
+.section{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+
+
+
+
+/*--------------------------nosotros------------------------*/
+
+
+
+.instrumentosTexto{
+	
+
+
+}
+.logoNosotros{
+	display: inline-block;
+	align-items: center;
+	width:30%;
+	text-align: center;   
+	margin-left: 0.4em;
+	margin-top: 0.15em;
+
+  }
+.maps{	
+		margin-left: -15%;	
+		margin-top: 25%;	
+		display:grid;
+		align-items: center;
+		justify-content: center;
+  }		
+
+/*----------------------------grid nosotros--------------------*/
+
+.gridNosotros{ 
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 0.6fr 2.1fr 0.3fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  justify-items: stretch;
+  grid-template-areas:
+    "navNos navNos"
+    "mainNos asideNos"
+    "footerNos footerNos";
+}
+
+.navNos { grid-area: navNos; }
+
+.mainNos {
+  		grid-area: mainNos;
+  		display: flex; 
+
+
+
+}
+
+.asideNos { 
+	grid-area: asideNos;
+	display: grid;
+	font-size: 1.5em;
+		
+}
+
+.footerNos { 
+	grid-area: footerNos;
+	background-color: black;
+	background-repeat: repeat;
+}
+
+
+/*--------------------------------productos---------------------*/
+.logoProductos{
+	display: inline-block;
+	align-items: center;
+	width:30%;
+	text-align: center;   
+	margin-left: 0.4em;
+	margin-top: 0.15em;
+
+  }
+
+.menuV{
+	float: left;
+	width: auto;
+	overflow: hidden;
+	border: double 0.62em;
+
+}
+
+.menuV a {
+	font-size: 2em;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 1.25em;
+	display: block;
+}
+
+.menuV a:hover {
+
+	background-color: white;
+	color: black;
+
+}
+
+.gridProductos{ 
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 0.6fr 2.1fr 0.3fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  justify-items: stretch;
+  grid-template-areas:
+    "navProd navProd"
+    "mainProd asideProd"
+    "footerProd footerProd";
+}
+
+.navProd { grid-area: navProd; }
+
+.mainProd h1{
+	margin-top: 0%;
+}
+.mainProd {
+  	
+    grid-area: mainProd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+}
+
+.asideProd { 
+	grid-area: asideProd;
+	display: grid;
+	font-size: 1.5em;
+		
+}
+
+.footerProd {
+
+	 grid-area: footerProd;
+	 background-color: black; 
+}
+
+
+/*-----------------------------sucursales---------------------*/
+
+.fondoSuc{
+	background-color: black;
+	background-image: url(../img/bateria.jpg);
+	background-repeat:repeat ;
+	background-size:cover;
+
+}
+
+.logoSucursales{
+	display: inline-block;
+	align-items: center;
+	width:30%;
+	text-align: center;   
+	margin-left: 0.4em;
+
+  }
+.capital img{
+	margin-top: -15%;
+}
+
+.zonaNorte img{
+	margin-top: -15%;
+}
+.zonaOeste img{
+	margin-top: -15%;
+}
+
+.capital{
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	vertical-align: middle;
+	font-size: 2em;
+	color: white;
+	padding: 0.5em;
+	width: auto;
+	text-align: center;	
+	margin: 12%;
+	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.zonaNorte{
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	vertical-align: middle;
+	font-size: 2em;
+	color: white;
+	padding:0.5em;
+	width:auto;
+	text-align: center;	
+	margin: 12%;
+	margin-top: auto;
+	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.zonaOeste{
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	vertical-align: middle;
+	font-size: 2em;
+	color: white;
+	padding: 0.5em;
+	width: auto;
+	text-align: center;	
+	margin: 12%;
+	margin-top: auto;
+	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.gridSucursales{ 
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 0.6fr 2.1fr 0.3fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  justify-items: stretch;
+  grid-template-areas:
+    "navSuc navSuc"
+    "mainSuc asideSuc"
+    "footerSuc footerSuc";
+}
+
+.navSuc { grid-area: navSuc; }
+
+.mainSuc {
+  		grid-area: mainSuc;
+  		display: flex; 
+
+
+
+}
+
+.asideSuc { 
+	grid-area: asideSuc;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5em;
+
+	
+	
+		
+}
+
+.footerSuc {
+	grid-area: footerSuc; 
+	display: block;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+   	margin-top: auto;
+   	background-color: black;
+
+
+}
+.containerSuc{
+	display: flex;
+    height: 1em;
+    margin-top: 50%;
+    margin-left: 15%;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+
+
+
+
+/*----------------------------ofertas------------------------*/
+
+.logoOfertas{
+	display: inline-block;
+	align-items: center;
+	width:30%;
+	text-align: center;   
+	margin-left: 0.4em;
+
+  }
+.tarjetas {
+	font-family: sans-serif;
+	font-size: 1.25em;
+	color: #FFFFFF;
+	margin-left:0.7em ;
+}
+
+
+
+
+h2 {
+	font-size: 1.87em;
+	color: #EEB6B6;
+	margin-right: 0.93em;
+	
+}
+
+
+h3 {
+	font-size: 1.25em;
+	color: white;
+	text-align: center;
+
+}
+
+
+
+.mainOf article p{
+	font-size: 1.5em;
+	background-color: transparent;
+}	
+	
+
+}
+tr th{
+	font-size: 2em;
+	color: white;
+}
+table {
+	border: 1px solid #FFFFFF;
+	border-collapse: collapse #FFFFFF;
+	font-size: 1em;
+	color: white;
+	background-color: black;
+
+}
+
+table td{
+	font-size: 2em;
+	color: white;
+	border: 1px solid #FFFFFF;
+	padding: 3.125em
+}
+
+
+.gridOfertas {
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-auto-rows: 1fr; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 0.6fr 1fr 0.9fr 1.1fr 1.4fr 1fr; 
+  gap: 5px 5px; 
+  grid-template-areas: 
+    "navOf navOf"
+    "mainOf asideOf"
+    "main2Of siderOf"
+    "main3Of siderOf"
+    "main4Of siderOf"
+    "footerOf footerOf"; 
+  justify-content: stretch; 
+  justify-items: stretch; 
+}
+.navOf{ 
+	grid-area: navOf; 
+}
+.mainOf{
+	grid-area: mainOf; 
+	display: flex;
+	background-color: none;
+	font-size: 1.25em;
+	display: inline-block;
+	margin-top: 0.93em;
+	text-align: justify;
+	margin-right: 0.1em;
+}
+.asideOf{ 
+	grid-area: asideOf;
+	text-align: center;
+}
+.main2Of{
+ 	grid-area: main2Of; 
+ 	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+	display: block;
+	padding: 20px;
+	width: 30%;
+	text-align: center;	
+	margin-top: -30%;
+}
+.main3Of{
+	grid-area: main3Of; 
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+	display: block;
+	padding: 20px;
+	width: 30%;
+	text-align: center;	
+	margin-top:-20% ;
+}
+.main4Of{ 
+	grid-area: main4Of; 
+	vertical-align: middle;
+	font-size: 16px;
+	color: white;
+	display: block;
+	padding: 20px;
+	width: 30%;
+	text-align: center;
+	margin-top: -10%;	
+}
+.footerOf{ 
+	grid-area: footerOf; 
+	display: inline-block;
+	height: 0;
+}
+.siderOf{ 
+	grid-area: siderOf; 
+	border: 1px solid #FFFFFF;
+	border-collapse: collapse #FFFFFF;
+	font-size: 0.2em;
+	color: white;
+	background-color: black;
+	margin-bottom: 100%;
+
+
+}
+
+
+
+/*--------------------contacto--------------------*/
+.logoCon{
+	display: inline-block;
+	align-items: center;
+	width:30%;
+	text-align: center;   
+	margin-left: 0.4em;
+ 
+}
+
+.container{
+		display: flex;
+		height:1em ;
+		align-items: center;
+		margin-top: 0%;
+		margin-left: 15%;
+} 
+.containerCon{
+		display: flex;
+		height:1em ;
+		align-items: center;
+		margin-top: auto;
+		margin-left: 15%;
+}
+.form{
+		display: flex;
+		flex-flow: column;
+		background-color: #040000;
+		background-size: cover;
+		justify-content: center;
+		align-items: center;
+		box-shadow: rgba(0, 0, 0, 0.8);
+		border-radius: 0.625em;
+		margin-top: auto;
+}
+
+.textArea{
+		padding: 1.875em;
+		height: 1.875em;
+}
+
+
+.gridContactos {  
+  		display: grid;
+  		grid-template-columns: 1fr;
+  		grid-template-rows: 0.4fr 2.2fr 0.4fr;
+   		grid-auto-columns: 1fr;
+	   	grid-auto-rows: 1fr;
+	  	gap: 5px 5px;
+	  	grid-auto-flow: row;
+	  	justify-content: stretch;
+	  	justify-items: stretch;
+	  	grid-template-areas:
+    "navCon"
+    "mainCon"
+    "footerCon";
+}
+
+.navCon { 
+	grid-area: navCon; 
+
+}
+
+.mainCon { 
+	grid-area: mainCon;
+	margin-top: auto;
+}
+
+.footerCon {
+
+ 	grid-area: footerCon;
+ 	margin-top: -70%;
+
+  }
+
+.maps1{	
+		margin-right: 15%;	
+		margin-bottom: 100%;	
+		display:grid;
+		align-items: center;
+		justify-content: flex-end;
+  }		
+
+
+
+
+
+
+
+/*------------- mediaqueries--------------------*/
+
+
+
+
+@media only screen and (max-width: 415px ) and (min-width: 50px)
+{
+
+body {
+		background-color: black;
+		background-image: none;
+		background-size: cover;
+	}
+
+
+ nav ol li {
+
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display:block;
+	
+	}	
+h1{
+	font-size: 2rem;	
+}
+
+p{
+ font-size: 1.1em;
+}
+
+.gridIndex {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "nav";
+    grid-template-columns: auto;
+    height: 98vh;
+    align-content: stretch;
+    justify-items: center;
+	}
+
+.logo{
+	display: inline-block;
+	align-items: center;
+	width:80%;
+	text-align: center;   
+	margin-left: 0.4em;
+	margin-top: 0.15em;
+
+}
+
+.mainNos{
+		display: none;
+
+}
+
+
+.gridNosotros {  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.6fr 2.1fr 0.3fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  justify-items: stretch;
+  grid-template-areas:
+    "navNos"
+    "asideNos"
+    "footerNos";
+}
+
+.navNos {
+		 grid-area: navNos;
+
+}
+.logoNosotros{
+	display: flex;
+	align-items: center;
+	width:80%;
+	text-align: center;   
+	margin-left: 3em;
+	margin-top: 0.15em;
+
+  }
+
+.asideNos {
+ 	grid-area: asideNos;
+ 	display: flex;
+ 	flex-wrap: wrap;	
+ 	
+ }
+
+.footerNos {
+	grid-area: footerNos;
+
+}
+.logoProductos{
+	display: flex;
+	align-items: center;
+	width:80%;
+	text-align: center;   
+	margin-left: 3em;
+	margin-top: 0.15em;
+
+  }
+.logoSucursales{
+	display: flex;
+	align-items: center;
+	width:80%;
+	text-align: center;   
+	margin-left: 3em;
+	margin-top: 0.15em;
+}
+.asideSuc{
+	display: none;
+}  
+.main2Of{
+	display: none;
+}
+.main3Of{
+	display: none;
+}
+
+.main4Of{
+	display: none;
+}
+.asideOf{
+	display: inline-block;
+	margin-top: 100%;
+
+}
+.siderOf{
+	display: none;
+}
+.table{
+	display: none;
+}
+.logoOfertas{
+	display: flex;
+	align-items: center;
+	width:80%;
+	text-align: center;   
+	margin-left: 3em;
+	margin-top: 0.15em;
+
+  }
+.maps1{
+	display: none;
+}
+.logoCon{
+	display: flex;
+	align-items: center;
+	width:80%;
+	text-align: center;   
+	margin-left: 3em;
+	margin-top: 0.15em;
+
+  }
+ 
+.mainCon { 
+	grid-area: mainCon;
+	margin-top: 10%;
+}
+
+}
+
+@media only screen and (max-width: 834px ) and (min-width: 415px){
+
+body{
+		
+	background-image: url(../img/bateria.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+nav ol li {
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display:flex;
+}
+
+.gridIndex {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "nav";
+    grid-template-columns: auto;
+    height: 98vh;
+    align-content: stretch;
+    justify-items: center;
+}
+
+.logo{
+	display: inline-block;
+	align-items: center;
+	width:80%;
+	text-align: center;   
+	margin-left: 0.4em;
+	margin-top: 0.15em;
+
+}
+.mainNos{
+	display: none;
+}
+
+.asideNos{
+	 display: flex;
+}
+.capital{
+	font-size: 1.5em;
+}
+.capital img{
+  	width: 50%;	
+  }
+.zonaNorte{
+	font-size: 1.5em;
+}
+.zonaNorte img{
+	width: 50%;
+}
+.zonaOeste{
+	font-size: 1.5em;
+}
+.zonaOeste img{
+	width: 50%;
+}
+
+.maps1{
+	display: none;
+}
+}
