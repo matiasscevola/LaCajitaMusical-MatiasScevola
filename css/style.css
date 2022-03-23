@@ -18,7 +18,7 @@ body {
 	background-size:100%;
 	height: auto;
 	width: auto;
-	background-color: black;
+	background-color: #000000;
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: column;
@@ -916,6 +916,8 @@ body{
 	background-image: url(../img/bateria.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,8,1) 53%, rgba(0,212,255,1) 100%);
 	
 }
 nav ol li {
@@ -976,3 +978,46 @@ nav ol li {
 	display: none;
 }
 }
+
+
+/*---------------animaciones----------------*/
+@keyframes animateDiv{
+	0%{ width: 100px}
+	25%{ width: 200px}
+	50%{ width: 300px}
+	75%{width: 200px}
+	100%{width: 100px}
+
+}
+
+.animate{
+
+	animation-name: animateDiv;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	animation-duration: 5s;
+	
+
+}
+
+.animationLogo{
+
+	animation-name:animateDiv ;
+	
+}
+.pDeslice {
+	animation-duration: 3s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
